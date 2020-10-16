@@ -1,0 +1,7 @@
+# 다양한 레포지토리를 열어서 작업할 경우 발생하는 에러인 것 같음.
+# 우선 git의 작동을 확인하기 위해 버젼 체크
+git --version
+# 버전이 나온다면 아래의 명령어를 통해 글로벌레벨에서 push를 이용할 때, 매번 자격증명을 해야하는 것을 해결함.
+git config --global credential.helper wincred
+# git push가 실행되는지 확인.
+git push origin master

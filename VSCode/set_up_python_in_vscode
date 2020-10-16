@@ -1,0 +1,6 @@
+# python 설치, vscode 설치, 설치 후 cmd 창에서 python or python3를 친 후 설치 확인
+# 실행이 될 경우 설치완료
+# vscode 설치 후 우측 하단에 나오는 창들 install 해주고, select python interpreter 클릭 후,
+# 설치된 파이썬 클릭.
+# cntr+shift+B를 누르면 task를 구성하라하고, 클릭하면 json파일을 만들라하고
+# 클릭 후, 템플릿을 others로 선택해주면 된다.
