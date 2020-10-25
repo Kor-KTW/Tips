@@ -12,3 +12,13 @@ fatal: unable to auto-detect email address (got 'xodn5@DESKTOP-F961SKG.(none)')
 git config --global user.email "you@example.com"
 
 git config --global user.name "Your Name"
+
+#아래의 오류가 걸렸을 경우
+fatal: refusing to merge unrelated histories
+push전에 pull을해서 프로잭트를 병합해주어야함.
+
+단 pull을 진행할 때
+fatal: refusing to merge unrelated histories
+이와같은 문구가 나온다면 
+git pull origin 브런치명 --allow-unrelated-histories를 사용하여
+이미 존재하는 두 프로젝트의 기록을 저장한다.

@@ -1,40 +1,41 @@
 # file > preference > keyboard shorcut에서 활성화된 키보드 단축키 확인, 변경 가능.
 
 # 기본 편집관련 
-ctrl+shift+k	행 삭제	editor.action.deleteLines
-ctrl+Enter	아래에 행 삽입	editor.action.insertLineAfter
-ctrl+shift+Enter	위에 행 삽입	editor.action.insertLineBefore
-alt+Down	행을 아래로 이동	editor.action.moveLinesDownAction
-alt+Up	행을 위로 이동	editor.action.moveLinesUpAction
-shift+alt+Down	위에 행 복사 추가	editor.action.copyLinesDownAction
-shift+alt+Up	아래에 행 복사 추가	editor.action.copyLinesUpAction
-ctrl+d	다음 선택 찾기	editor.action.addSelectionToNextFindMatch
-ctrl+k ctrl+d	마지막 선택 항목을 다음 찾기 항목으로 이동	editor.action.moveSelectionToNextFindMatch
-shift+alt+i	선택한 각 줄 끝의 커서 삽입	editor.action.insertCursorAtEndOfEachLineSelected
-ctrl+shift+l	현재 선택 항목을 모두 선택	editor.action.selectHighlights
-ctrl+f2	현재 단어의 모든 항목 선택	editor.action.change
-ctrl+shift+\	매치하는 괄호(,{,[로 건너 뛰기	editor.action.jumpToBracket
-ctrl+End	파일 끝으로 이동	cursorBottom
-ctrl+Home	파일 시작으로 이동	cursorTop
-ctrl+h	바꾸기	editor.action.startFindReplaceAction
-f3	다음 찾기	editor.action.nextMatchFindAction
-shift+f3	이전 찾기	editor.action.previousMatchFindAction
-alt+Enter	모든 일치 항목을 선택	editor.action.selectAllMatches
-alt+z	단어 감싸기 토글(화면상에 보이지 않는 부분은 자동 줄바꿈되어 화면에나타남)	editor.action.toggleWordWrap
+ctrl+shift+k	    행 삭제	            editor.action.deleteLines
+ctrl+Enter  	    아래에 행 삽입	    editor.action.insertLineAfter
+ctrl+shift+Enter	위에 행 삽입        editor.action.insertLineBefore
+alt+Down        	행을 아래로 이동	editor.action.moveLinesDownAction
+alt+Up	            행을 위로 이동  	editor.action.moveLinesUpAction
+shift+alt+Down  	위에 행 복사 추가	editor.action.copyLinesDownAction
+shift+alt+Up	    아래에 행 복사 추가	editor.action.copyLinesUpAction
+ctrl+d	            다음 선택 찾기	    editor.action.addSelectionToNextFindMatch
+ctrl+k ctrl+d	    마지막 선택 항목을 다음 찾기 항목으로 이동	editor.action.moveSelectionToNextFindMatch
+shift+alt+i	        선택한 각 줄 끝의 커서 삽입	editor.action.insertCursorAtEndOfEachLineSelected
+Ctrl+Alt+ ↑ / ↓     Insert cursor above / below
+ctrl+shift+l	    현재 선택 항목을 모두 선택	editor.action.selectHighlights
+ctrl+f2	            현재 단어의 모든 항목 선택	editor.action.change
+ctrl+shift+\	    매치하는 괄호(,{,[로 건너 뛰기	editor.action.jumpToBracket
+ctrl+End        	파일 끝으로 이동	cursorBottom
+ctrl+Home	        파일 시작으로 이동	cursorTop
+ctrl+h	            바꾸기              ditor.action.startFindReplaceAction
+f3              	다음 찾기         	editor.action.nextMatchFindAction
+shift+f3        	이전 찾기       	editor.action.previousMatchFindAction
+alt+Enter       	모든 일치 항목을 선택	editor.action.selectAllMatches
+alt+z	            단어 감싸기 토글(화면상에 보이지 않는 부분은 자동 줄바꿈되어 화면에나타남)	editor.action.toggleWordWrap
 
 # 네비게이션
 
-f12	정의로 이동	editor.action.goToDeclaration
-ctrl+g	n번째 행으로 이동	workbench.action.gotoLine
+f12	                정의로 이동	editor.action.goToDeclaration
+ctrl+g          	n번째 행으로 이동	workbench.action.gotoLine
 
 # 에디터 관리
 
-ctrl+shift+n	새창 열기	workbench.action.newWindow
-ctrl+f4	편집기 닫기	workbench.action.closeActiveEditor
-ctrl+k ctrl+w	모든 편집기 닫기	workbench.action.closeAllEditors
-ctrl+kf	폴더 닫기	workbench.action.closeFolder
-ctrl+\	편집기 나누기	workbench.action.splitEditor
-ctrl+number	number번째 편집기 그룹에 초점 맞추기	workbench.action.focusFirstEditorGroup
+ctrl+shift+n	    새창 열기	workbench.action.newWindow
+ctrl+f4	            편집기 닫기	workbench.action.closeActiveEditor
+ctrl+k ctrl+w	    모든 편집기 닫기	workbench.action.closeAllEditors
+ctrl+kf	            폴더 닫기	workbench.action.closeFolder
+ctrl+\          	편집기 나누기	workbench.action.splitEditor
+ctrl+number	        number번째 편집기 그룹에 초점 맞추기	workbench.action.focusFirstEditorGroup
 ctrl+k ctrl+왼쪽	왼쪽 편집기 그룹에 초점 맞추기	workbench.action.focusPreviousGroup
 ctrl+k ctrl+오른쪽	오른쪽 편집기 그룹에 초점 맞추기	workbench.action.focusNextGroup
 ctrl+shift+PageUp	왼쪽으로 편집기 이동	workbench.action.moveEditorLeftInGroup
@@ -48,5 +49,5 @@ ctrl+shift+s	다른 이름으로 저장	workbench.action.files.saveAs
 
 # 디스플레이
 
-ctrl+b	사이드바 토글	workbench.action.toggleSidebarVisibility
+ctrl+b	        사이드바 토글	workbench.action.toggleSidebarVisibility
 ctrl+shift+f	검색보기(제목검색안됨 내용검색임)	workbench.view.search
