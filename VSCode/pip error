@@ -9,3 +9,5 @@ pip : 'pip' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 �
 
 간단하게 해결하는 방법으로는, 
 윈도우의 커맨드 프롬프트에서, setx PATH “%PATH%;D:\Python\Python38\Scripts”를 명령하면된다.
+
+++ vscode가 c드라이브에 설치되어있으나 d드라이브에 python이 설치되어있는 경우 에러를 해결할 수 없는 것 같다?...
