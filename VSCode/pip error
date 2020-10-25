@@ -6,3 +6,6 @@ pip : 'pip' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 �
 윈도우의 경우 cmd창에서 echo %PATH%를 명령하여, 제대로 경로지정이 되어있는지 확인해야한다.
 만약 안되어있을 경우, run창(window키+r)을 통해 sysdm.cpl(시스템 속성)을 실행시키고, 고급의 환경변수를 클릭한다.
 여기에있는 PATH를 더블 클릭하고 편집을 누른 후 pip가 존재하는 폴더의 경로를 지정해준다. ex)D:\Python\Python38\Scripts
+
+간단하게 해결하는 방법으로는, 
+윈도우의 커맨드 프롬프트에서, setx PATH “%PATH%;D:\Python\Python38\Scripts”를 명령하면된다.
